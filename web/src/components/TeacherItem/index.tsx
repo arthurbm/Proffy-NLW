@@ -32,7 +32,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
                 <img src={teacher.avatar} alt={teacher.name}/>
                 <div>
                     <strong>{teacher.name}</strong>
-                    <span>Física</span>
+                    <span>{teacher.subject}</span>
                 </div>
             </header>
 
